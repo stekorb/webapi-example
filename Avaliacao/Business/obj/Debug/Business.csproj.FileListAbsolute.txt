@@ -1,0 +1,13 @@
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Business\bin\Debug\Business.dll
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Business\bin\Debug\Business.pdb
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Business\bin\Debug\Data.dll
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Business\bin\Debug\Entities.dll
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Business\bin\Debug\Newtonsoft.Json.dll
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Business\bin\Debug\Data.pdb
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Business\bin\Debug\Entities.pdb
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Business\obj\Debug\Business.csprojAssemblyReference.cache
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Business\obj\Debug\Business.csproj.CopyComplete
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Business\obj\Debug\Business.dll
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Business\obj\Debug\Business.pdb
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Business\bin\Debug\Json\Products.json

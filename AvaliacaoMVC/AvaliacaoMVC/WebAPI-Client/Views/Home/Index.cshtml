@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Produtos</h2>
+
+<div class="row">
+    <div class="col-md-12">
+
+        <ul class="nav nav-tabs" id="tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="tabwithout" data-toggle="tab" role="tab" href="#nojquery" aria-controls="with" aria-selected="true">Sem jQuery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="tabwith" data-toggle="tab" role="tab" href="#withjquery" aria-controls="without" aria-selected="false">Com jQuery</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade active" id="nojquery" role="tabpanel" aria-labelledby="tabwithout-tab">
+                <div class="row panel-heading">
+                    <div class="col-md-3">
+                        <a class="btn btn-primary" onclick="getAllProducts()"><span class="glyphicon glyphicon-search"></span> Buscar Produtos</a>
+                    </div>
+                </div>
+                @* SEM JQUERY *@
+                <div class="row">
+                    <div class="col-md-12">
+                        <table id="tableHtml" class="table table-striped" style="display: none">
+                            <thead>
+                                <tr>
+                                    <th>Descrição</th>
+                                    <th>Marca</th>
+                                    <th>Código da Marca</th>
+                                    <th style="text-align: right">Valor</th>
+                                </tr>
+                            </thead>
+                            <tbody id="contentHtml"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="withjquery" role="tabpanel" aria-labelledby="tabwith-tab">
+                <div class="row  panel-heading">
+                    <div class="col-md-3">
+                        <a class="btn btn-primary" onclick="getAllProductsJ()"><span class="glyphicon glyphicon-search"></span> Buscar Produtos</a>
+                    </div>
+                </div>
+                @* COM JQUERY *@
+                <div class="row">
+                    <div class="col-md-12">
+                        <table id="tableHtmlJ" class="table table-striped" style="display: none">
+                            <thead>
+                                <tr>
+                                    <th>Descrição</th>
+                                    <th>Marca</th>
+                                    <th>Código da Marca</th>
+                                    <th style="text-align: right">Valor</th>
+                                </tr>
+                            </thead>
+                            <tbody id="contentHtmlJ"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="~/Scripts/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="~/Scripts/Views/Product.js"></script>
+
+<style>
+    .right-inner-addon {
+        position: relative;
+    }
+
+        .right-inner-addon input {
+            padding-right: 30px;
+        }
+
+        .right-inner-addon i {
+            position: absolute;
+            right: 0px;
+            padding: 10px 12px;
+            pointer-events: none;
+        }
+</style>

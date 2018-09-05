@@ -1,0 +1,7 @@
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Data\bin\Debug\Data.dll
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Data\bin\Debug\Data.pdb
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Data\obj\Debug\Data.csprojAssemblyReference.cache
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Data\obj\Debug\Data.dll
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Data\obj\Debug\Data.pdb
+E:\Visual Studio\Projects\eConstrumarket\Avaliacao\Data\bin\Debug\Json\Products.json
